@@ -24,6 +24,7 @@ body {
     height: 1600px;
 }
 
+
 .name__img{
     width: 800px;
     height: 765px;
@@ -32,7 +33,7 @@ body {
 .container {
     width: 1140px;
     margin: 0 auto;
-    margin-top: 63px;
+    
     margin-bottom: 63px;
 }
 
@@ -82,7 +83,8 @@ body {
 .name {
     display: flex;
     margin: 0  auto;
-    width:1600px;    
+    width:1600px;
+    margin-bottom: 63px;    
 }
 
 .name__header-span {
@@ -194,4 +196,23 @@ text-align: center;
 .popular_article-item:nth-child(3){
 
     margin: 0 0 30px 0;
+}
+
+.popular_article-item:nth-child(1){
+    background-image: url(../img/Rectangle\ 1.jpg);
+}
+.popular_article-item:nth-child(2){
+    background-image: url(../img/Rectangle\ 2.jpg);
+}
+.popular_article-item:nth-child(3){
+    background-image: url(../img/Rectangle\ 3.jpg);
+}
+.popular_article-item:nth-child(4){
+    background-image: url(../img/Rectangle\ 4.jpg);
+}
+.popular_article-item:nth-child(5){
+    background-image: url(../img/Rectangle\ 5.jpg);
+}
+.popular_article-item:nth-child(6){
+    background-image: url(../img/Rectangle\ 6.jpg);
 }
