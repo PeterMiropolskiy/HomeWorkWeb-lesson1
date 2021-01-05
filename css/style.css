@@ -137,15 +137,23 @@ line-height: 19px;
 text-align: center;
 }
 
+.stok_item-category{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
 .stock__item-women {
     width: 360px;
     height: 260px;
     background-image: url(../img/stock-women.jpg);
     font-style: normal;
     text-align: center;
-    
     color: var(--white-color);
     text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .stock__item-men {
