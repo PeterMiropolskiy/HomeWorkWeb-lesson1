@@ -141,6 +141,7 @@ text-align: center;
     display: flex;
     justify-content: center;
     flex-direction: column;
+    background-color: var(--pink-color);
 }
 
 .stock__item-women {
